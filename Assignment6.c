@@ -4,7 +4,6 @@
 int countDistinct(int a[], int n)     
 {
    int i, j, count = 1;
-   //Traverse the array
    for (i = 1; i < n; i++)     
    {
       for (j = 0; j < i; j++)   
